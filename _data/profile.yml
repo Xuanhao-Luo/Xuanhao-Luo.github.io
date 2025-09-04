@@ -4,7 +4,7 @@ secondary_name: ""
 navbar_name: "Xuanhao Luo"
 
 positions:
-- logo: /assets/lxh/ncstate.png  # Logo is optional
+- logo: /assets/lxh/ncsu.svg  # Logo is optional
   name: Ph.D. candidate in Computer Science
 # - name: Position 2 without logo
 
@@ -32,9 +32,16 @@ short_bio_text_justify: false
 #   </p>
 
 short_bio: >-
-  <p>I’m a Ph.D. candidate in <strong>North Carolina State University</strong> advised by Dr. Yuchen Liu, and my work is closely connected with Dr. Zhiyuan Peng. I am currently working at <strong>Lenovo Research</strong> as a research intern, focusing on <strong>LLM safety</strong>. Previously, I worked at the Data Lab of <strong>Syracuse University</strong>, with Dr. Reza Zafarani and Dr. Xinyi Zhou as a research intern.</p>
+  <p>I’m a Ph.D. candidate in <strong>North Carolina State University</strong> advised by 
+  <a href="https://csc.ncsu.edu/people/yliu322/" target="_blank">Dr. Yuchen Liu</a>, and my work is closely connected with 
+  <a href="https://jerrypeng21cuhk.github.io/" target="_blank">Dr. Zhiyuan Peng</a>. 
+  I worked at <strong>Lenovo Research</strong> as a research intern, focusing on <strong>LLM safety</strong>. 
+  Before that, I was a research intern at the Data Lab of <strong>Syracuse University</strong>, working with 
+  <a href="https://ecs.syracuse.edu/faculty-staff/reza-zafarani" target="_blank">Dr. Reza Zafarani</a> and 
+  <a href="https://xinyizhou.xyz/Xinyi-Zhou-1f824c54e0f180fcad69d7f2121a6f28" target="_blank">Dr. Xinyi Zhou</a>.</p>
 
-  <p>My research interests include <strong>Machine Learning</strong>, <strong>Generative AI</strong> (Diffusion, GANs, VAE, and LLMs) and <strong>Networking</strong>. 
+
+  <p>My research interests include <strong>Generative AI</strong> (Diffusion, GANs, VAE, and LLMs), <strong>Intelligent Networking Systems</strong>, and <strong>Machine Learning</strong>. 
   I’ve worked on projects like <em>radio map generation</em>, <em>LLM for network optimization</em>, and <em>rank-based packet compression</em>. 
   My research has been published in journals and conferences such as <strong>IEEE Journal on Selected Areas in Communications (JSAC)</strong>, 
   <strong>IEEE Transactions on Cognitive Communications and Networking (TCCN)</strong>, <strong>PerCom</strong>, <strong>IFIP/IEEE Networking</strong>, 

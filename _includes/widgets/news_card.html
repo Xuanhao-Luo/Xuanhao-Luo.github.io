@@ -20,7 +20,7 @@
     </div>
 </div> -->
 
-
+<!-- 
 
 {% assign news_items = site.news | sort: "date" | reverse | slice: 0, include.limit -%}
 
@@ -33,5 +33,43 @@
         <div>{{ item.title }}</div>
       </div>
     {% endfor %}
+  </div>
+</div> -->
+
+
+{% assign sorted_news = site.news | sort: "date" | reverse %}
+{% assign news_limit = include.limit | default: 10 %}
+{% assign first_news = sorted_news | slice: 0, news_limit %}
+{% assign more_news = sorted_news | slice: news_limit, sorted_news.size %}
+
+<div class="my-3 bg-white shadow-sm rounded-xl">
+  <h6 class="p-3 mb-0 border-bottom border-gray"><i class="fas fa-rss"></i> News</h6>
+  <div class="px-3 pb-1">
+
+    <!-- 前 N 条 -->
+    {% for item in first_news %}
+      <div class="my-1 d-flex">
+        <div class="text-muted mr-3"><i>{{ item.date | date: "%m/%Y" }}</i></div>
+        <div style="text-align: justify; flex: 1;">{{ item.title  | markdownify | remove: '<p>' | remove: '</p>' }}</div>
+      </div>
+    {% endfor %}
+
+    <!-- 折叠部分 -->
+    {% if more_news.size > 0 %}
+    <div class="collapse" id="moreNews">
+      {% for item in more_news %}
+        <div class="my-1 d-flex">
+          <div class="text-muted mr-3"><i>{{ item.date | date: "%m/%Y" }}</i></div>
+          <div style="text-align: justify; flex: 1;">{{ item.title  | markdownify | remove: '<p>' | remove: '</p>' }}</div>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="text-center my-2">
+      <a class="btn btn-sm btn-outline-primary" data-toggle="collapse" href="#moreNews" role="button" aria-expanded="false" aria-controls="moreNews">
+        Show More
+      </a>
+    </div>
+    {% endif %}
+
   </div>
 </div>

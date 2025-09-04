@@ -90,3 +90,9 @@ div.lazy {
     font-family: Courier, monospace;
 }
 
+.badge {
+  font-size: 0.8rem;   /* 默认 0.75rem，这里改大一些 */
+  font-weight: 500;    /* 半粗 */
+  padding: 0.1em 0.3em; /* 调整上下左右间距 */
+  border-radius: 0.3rem; /* 圆角更明显 */
+}
