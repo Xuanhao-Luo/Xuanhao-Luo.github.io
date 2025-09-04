@@ -60,19 +60,19 @@ portrait_url: /assets/lxh/lxh.jpg
 experience:
   - name: NC State University
     location: NC, USA
-    logo: /assets/lxh/ncstate.png
+    logo: /assets/lxh/ncsu.svg
     position: Research/Teaching Assistant
     date: Aug. 2023 – Present
 
   - name: Lenovo
     location: NC, USA
-    logo: /assets/lxh/ncstate.png
+    logo: /assets/lxh/Lenovo.png
     position: Research Intern
     date: Jun. 2025 – Aug. 2025
 
   - name: Syracuse University
     location: NY, USA
-    logo: /assets/lxh/ncstate.png
+    logo: /assets/lxh/Syracuse.jpg
     position: Research Intern
     date: Apr. 2022 – Aug. 2022
 

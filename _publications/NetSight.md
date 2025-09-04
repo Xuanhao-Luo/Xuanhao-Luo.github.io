@@ -5,5 +5,5 @@ pub: "The 40th Annual AAAI Conference on Artificial Intelligence (AAAI-26)"
 date: 2025-12-01
 status: under review
 links:
-  PDF: "#"
+  PDF: https://arxiv.org/pdf/2505.07034
 ---

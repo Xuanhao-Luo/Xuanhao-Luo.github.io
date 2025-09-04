@@ -18,14 +18,10 @@
                         {% endif %}
 
                         <div class="d-flex">
-                        <div class="h1 font-weight-normal">
-                            {{ site.data.profile.primary_name }} <small>{{ site.data.profile.secondary_name }}</small>
-                            {% if site.data.profile.cv_link %}
-                            <a target="_blank" href="{{ site.data.profile.cv_link | relative_url }}" class="ml-2" style="font-size: 0.4em; font-weight: bold;">
-                                [CV]
-                            </a>
-                            {% endif %}
-                        </div>
+<div class="h1 font-weight-normal">
+  {{ site.data.profile.primary_name }} <small>{{ site.data.profile.secondary_name }}</small>
+</div>
+
 
 
                             {% if site.data.profile.portrait_url %}
