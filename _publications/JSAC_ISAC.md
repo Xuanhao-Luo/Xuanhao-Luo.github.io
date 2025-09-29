@@ -4,8 +4,9 @@ authors: "**Xuanhao Luo**, Zhouyu Li, Mingzhe Chen, Ruozhou Yu, Shiwen Mao, Yuch
 pub: "IEEE Journal on Selected Areas in Communications (**JSAC**)"
 date: 2025-9-09
 status: published
-note: "Impact factor: 16.4, Under major revision"
+links:
+  Paper: https://arxiv.org/pdf/2412.10385
 badges:
   - type: if
-    text: "IF 16.4"
+    text: "IF 17.2"
 ---

@@ -8,5 +8,5 @@ links:
   Paper: https://arxiv.org/pdf/2412.10385
 badges:
   - type: if
-    text: "IF 16.4"
+    text: "IF 17.2"
 ---
