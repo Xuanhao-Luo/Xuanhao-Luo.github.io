@@ -5,7 +5,7 @@ pub: "IEEE Journal on Selected Areas in Communications (**JSAC**)"
 date: 2025-9-09
 status: published
 links:
-  Paper: https://arxiv.org/pdf/2412.10385
+  Paper: https://ieeexplore.ieee.org/abstract/document/11168410
 badges:
   - type: if
     text: "IF 17.2"
