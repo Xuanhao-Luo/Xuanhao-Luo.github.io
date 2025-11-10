@@ -8,6 +8,6 @@ links:
   Paper: https://ruozhouy.github.io/docs/percom-25-paper.pdf
 badges:
   - type: ar
-    text: "AR: 24/152=15.7%"
+    text: "AR: 15.7%"
 
 ---

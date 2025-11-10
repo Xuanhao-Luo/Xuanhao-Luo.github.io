@@ -9,6 +9,6 @@ links:
   Paper: https://arxiv.org/pdf/2503.19097
 badges:
   - type: ar
-    text: "AR: 20/96=20.8%"
+    text: "AR: 20.8%"
 
 ---
