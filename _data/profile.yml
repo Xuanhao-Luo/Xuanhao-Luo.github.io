@@ -1,16 +1,16 @@
 primary_name: "Xuanhao Luo"
-cv_link: "/assets/doc/CV_Sept_2025.pdf"
 secondary_name: ""
 navbar_name: "Xuanhao Luo"
 
-positions:
-- logo: /assets/lxh/ncsu.svg  # Logo is optional
-  name: Ph.D. candidate in Computer Science
+# positions:
+# - logo: /assets/lxh/ncsu.svg  # Logo is optional
+#   name: Ph.D. candidate in Computer Science
 # - name: Position 2 without logo
 
 
 email: "xluo26@ncsu.edu"
 # cv_link: link-to-your-cv-file
+# cv_link: "/assets/doc/CV_Sept_2025.pdf"
 gscholar: https://scholar.google.com/citations?user=-J1SdKEAAAAJ&hl=en  # This is an example, replace it with your own Google Scholar ID
 github: Xuanhao-Luo
 # twitter: your_twitter_id  # Do not include the '@' symbol
