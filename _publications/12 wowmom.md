@@ -5,8 +5,8 @@ pub: "IEEE International Symposium on a World of Wireless, Mobile and Multimedia
 date: 2025-06-01
 status: accepted
 links:
-  Paper: https://arxiv.org/pdf/2503.19097
   Code: https://github.com/Xuanhao-Luo/ByteTrans
+  Paper: https://arxiv.org/pdf/2503.19097
 badges:
   - type: ar
     text: "AR: 20/96=20.8%"
