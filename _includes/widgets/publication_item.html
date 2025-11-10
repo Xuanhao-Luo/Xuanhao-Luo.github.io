@@ -54,6 +54,7 @@
 </div> -->
 
 
+<!-- Desktop version -->
 <div class="d-none d-md-block">
   <div class="row no-gutters {% unless include.hide_bottom_border %}border-bottom{% endunless %} border-gray">
     <div class="col-md-12 p-3">
@@ -64,24 +65,25 @@
         {{ item.authors | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}
       </p>
       
-      <!-- pub -->
+      <!-- pub + links + badges -->
       <p class="mt-0 mb-1" style="font-size: 0.95rem;">
-        {{ item.pub_pre }}<i>{{ item.pub | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</i>{{ item.pub_post }}
-        <span class="text-muted" style="font-size: 0.9rem;">{{ item.pub_date }}</span> {{ item.pub_last }}
+        {{ item.pub_pre }}
+        <i>{{ item.pub | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</i>
+        {{ item.pub_post }}
+        <span class="text-muted" style="font-size: 0.9rem;">{{ item.pub_date }}</span>
+        {{ item.pub_last }}
         <span data-semantic-scholar-id="{{ item.semantic_scholar_id }}"></span>
-      </p>
-      
-      <!-- links -->
-      <p class="pb-0 mb-0 lh-125 text-muted abstract-links" style="font-size: 0.85rem;">
+
+        <!-- inline links -->
         {% for link in item.links %}
           {% if link[1].url %}
-            <a target="{{ link[1]['target'] }}" href="{{ link[1]['url'] }}" style="font-weight: bold;">[{{ link[0] }}]</a>
+            <a target="{{ link[1]['target'] }}" href="{{ link[1]['url'] }}" style="font-weight: bold; margin-left: 8px;">[{{ link[0] }}]</a>
           {% else %}
-            <a target="_blank" href="{{ link[1] }}" style="font-weight: bold;">[{{ link[0] }}]</a>
+            <a target="_blank" href="{{ link[1] }}" style="font-weight: bold; margin-left: 8px;">[{{ link[0] }}]</a>
           {% endif %}
         {% endfor %}
 
-        <!-- badges -->
+        <!-- inline badges -->
         {% if item.badges %}
           {% for badge in item.badges %}
             <span class="badge
@@ -89,17 +91,19 @@
               {% elsif badge.type == 'ar' %} badge-success
               {% elsif badge.type == 'spotlight' %} badge-success
               {% elsif badge.type == 'citations' %} badge-info
-              {% else %} badge-secondary {% endif %}">
+              {% else %} badge-secondary {% endif %}"
+              style="margin-left: 6px;">
               {{ badge.text }}
             </span>
           {% endfor %}
         {% endif %}
       </p>
-
     </div>
   </div>
 </div>
 
+
+<!-- Mobile version -->
 <div class="row no-gutters d-md-none {% unless include.hide_bottom_border %}border-bottom{% endunless %} border-gray {% if include.first %}rounded-xl-top{% endif %} {% if include.last %}rounded-xl-bottom{% endif %}">
   <div class="w-100 {% if include.first %}rounded-xl-top{% endif %} {% if include.last %}rounded-xl-bottom{% endif %}" style="background-color: rgba(255,255,255,0.9);">
     <div class="d-flex align-items-start flex-column py-3 px-4">
@@ -111,24 +115,25 @@
           {{ item.authors | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}
         </p>
         
-        <!-- pub -->
+        <!-- pub + links + badges -->
         <p class="mt-0 mb-1" style="font-size: 0.95rem;">
-          {{ item.pub_pre }}<i>{{ item.pub | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</i>{{ item.pub_post }}
-          <span class="text-muted" style="font-size: 0.9rem;">{{ item.pub_date }}</span> {{ item.pub_last }}
+          {{ item.pub_pre }}
+          <i>{{ item.pub | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</i>
+          {{ item.pub_post }}
+          <span class="text-muted" style="font-size: 0.9rem;">{{ item.pub_date }}</span>
+          {{ item.pub_last }}
           <span data-semantic-scholar-id="{{ item.semantic_scholar_id }}"></span>
-        </p>
-        
-        <!-- links -->
-        <p class="pb-0 mb-0 lh-125 text-muted abstract-links" style="font-size: 0.85rem;">
+
+          <!-- inline links -->
           {% for link in item.links %}
             {% if link[1].url %}
-              <a target="{{ link[1]['target'] }}" href="{{ link[1]['url'] }}" style="font-weight: bold;">[{{ link[0] }}]</a>
+              <a target="{{ link[1]['target'] }}" href="{{ link[1]['url'] }}" style="font-weight: bold; margin-left: 8px;">[{{ link[0] }}]</a>
             {% else %}
-              <a target="_blank" href="{{ link[1] }}" style="font-weight: bold;">[{{ link[0] }}]</a>
+              <a target="_blank" href="{{ link[1] }}" style="font-weight: bold; margin-left: 8px;">[{{ link[0] }}]</a>
             {% endif %}
           {% endfor %}
 
-          <!-- badges -->
+          <!-- inline badges -->
           {% if item.badges %}
             {% for badge in item.badges %}
               <span class="badge
@@ -136,15 +141,14 @@
                 {% elsif badge.type == 'ar' %} badge-success
                 {% elsif badge.type == 'spotlight' %} badge-success
                 {% elsif badge.type == 'citations' %} badge-info
-                {% else %} badge-secondary {% endif %}">
+                {% else %} badge-secondary {% endif %}"
+                style="margin-left: 6px;">
                 {{ badge.text }}
               </span>
             {% endfor %}
           {% endif %}
         </p>
-
       </div>
     </div>
   </div>
 </div>
-
