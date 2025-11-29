@@ -7,6 +7,13 @@ body_attr: >-
   data-spy="scroll" data-target="#navbar-year" data-offset="100"
 ---
 
+<div class="text-center mb-4">
+  <h2 class="font-weight-bold">Publications</h2>
+  <p class="text-muted" style="font-size: 0.95rem;">
+    * Equal contribution &nbsp;&nbsp; | &nbsp;&nbsp; <u>Underline</u>: student advised by me
+  </p>
+</div>
+
 <!-- {% assign under_review = site.publications | where: "status", "under review" %} -->
 {% assign under_review = site.publications | where: "status", "under review" | sort: "date" | reverse %}
 {% assign pubs_nonreview = site.publications | where_exp: "item", "item.status != 'under review'" %}
