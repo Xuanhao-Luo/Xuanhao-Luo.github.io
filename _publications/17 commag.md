@@ -1,7 +1,7 @@
 ---
 title: "Reshaping Network Data with Generative AI: From Augmentation, Processing to Autonomous Analysis"
 authors: "**Xuanhao Luo**, Dongming Wu, Zhizhen Li, Xinqing Lin, Yuchen Liu"
-pub: "IEEE Communications Magazine (**ComMag**)"
+pub: "IEEE Communications Magazine (**ComMag**) (under revision)"
 date: 2025-12-30
 status: under review
 note: "Impact factor: 8.3"
