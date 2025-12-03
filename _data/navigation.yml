@@ -10,3 +10,7 @@ pages:
 
 - name: Services
   url: /service/
+
+- name: Teaching
+  url: /teaching/
+
