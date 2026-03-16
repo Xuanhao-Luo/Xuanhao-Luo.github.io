@@ -119,18 +119,18 @@ awards:
     date: 2020
 
 
-courses:
-  - category: Ph.D. @ NC State
-    items:
-      - "CSC 791 – Machine Learning with Graphs"
-      - "CSC 791 – Advanced NextG Network Design"
-      - "CSC 774 – Advanced Network Security"
-      - "CSC 722 – Advanced Topics in Machine Learning"
-      - "CSC 574 – Computer & Network Security"
-      - "CSC 570 – Computer Networks"
-      - "CSC 565 – Graph Theory"
-      - "CSC 514 – Cryptography"
+# courses:
+#   - category: Ph.D. @ NC State
+#     items:
+#       - "CSC 791 – Machine Learning with Graphs"
+#       - "CSC 791 – Advanced NextG Network Design"
+#       - "CSC 774 – Advanced Network Security"
+#       - "CSC 722 – Advanced Topics in Machine Learning"
+#       - "CSC 574 – Computer & Network Security"
+#       - "CSC 570 – Computer Networks"
+#       - "CSC 565 – Graph Theory"
+#       - "CSC 514 – Cryptography"
 
-  - category: Undergraduate
-    items:
-      - "Python, C & C++, JAVA, Data Mining, OS, Computer Architecture, Circuit, Compiler."
+#   - category: Undergraduate
+#     items:
+#       - "Python, C & C++, JAVA, Data Mining, OS, Computer Architecture, Circuit, Compiler."
