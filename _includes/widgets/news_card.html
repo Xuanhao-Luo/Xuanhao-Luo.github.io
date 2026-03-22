@@ -38,7 +38,7 @@
 
 
 {% assign sorted_news = site.news | sort: "date" | reverse %}
-{% assign news_limit = include.limit | default: 5 %}
+{% assign news_limit = include.limit | default: 10 %}
 {% assign first_news = sorted_news | slice: 0, news_limit %}
 {% assign more_news = sorted_news | slice: news_limit, sorted_news.size %}
 
