@@ -9,5 +9,6 @@ homepage:
 # footer_text: >-
 #   <a href="https://github.com/luost26/academic-homepage" target="_blank"><i class="fas fa-pencil-ruler"></i> academic-homepage</a>
 
-footer_text: "© 2025 Xuanhao Luo"
+# footer_text: "© 2025 Xuanhao Luo"
 
+footer_text: "Xuanhao Luo"
