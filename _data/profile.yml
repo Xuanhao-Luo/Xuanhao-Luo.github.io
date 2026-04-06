@@ -42,13 +42,23 @@ short_bio: >-
   <a href="https://xinyizhou.xyz/Xinyi-Zhou-1f824c54e0f180fcad69d7f2121a6f28" target="_blank">Dr. Xinyi Zhou</a>.
   </p>
 
-  <p> 
-  My research lies at the intersection of <strong>Generative AI</strong> and <strong>Intelligent Networking Systems</strong>.
-  I investigate how <strong>foundation models</strong> (e.g., diffusion models, transformers, and large language models)
-  can enable new capabilities in network optimization, data compression, wireless sensing, and autonomous network operation.
+
+  <p>
+  My research focuses on <strong>generative modeling for autonomous network systems</strong>. 
+  I study how learning-based approaches can transform network data across its lifecycle, 
+  including <strong>generation</strong>, <strong>compression</strong>, and <strong>reasoning</strong>, 
+  to enable scalable communication and adaptive network control toward AI-native systems.
   My work has been published in venues such as <strong>IEEE JSAC</strong>, <strong>IEEE TMC</strong>,
   <strong>IEEE TCCN</strong>, <strong>IEEE PerCom</strong>, <strong>IEEE WoWMoM</strong>, <strong>IEEE ICC</strong>, and <strong>IFIP Networking</strong>.
   </p>
+
+# <p> 
+# My research lies at the intersection of <strong>Generative AI</strong> and <strong>Intelligent Networking Systems</strong>.
+# I investigate how <strong>foundation models</strong> (e.g., diffusion models, transformers, and large language models)
+# can enable new capabilities in network optimization, data compression, wireless sensing, and autonomous network operation.
+# My work has been published in venues such as <strong>IEEE JSAC</strong>, <strong>IEEE TMC</strong>,
+# <strong>IEEE TCCN</strong>, <strong>IEEE PerCom</strong>, <strong>IEEE WoWMoM</strong>, <strong>IEEE ICC</strong>, and <strong>IFIP Networking</strong>.
+# </p>
 
 # <p>I’m a Ph.D. candidate in <strong>North Carolina State University</strong> advised by 
 # <a href="https://csc.ncsu.edu/people/yliu322/" target="_blank">Dr. Yuchen Liu</a>, and my work is closely connected with 
