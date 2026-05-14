@@ -31,6 +31,31 @@ short_bio_text_justify: false
 #     as well as being common in domestic longhair and domestic shorthair cats.
 #   </p>
 
+# short_bio: >-
+#   <p>
+#   I am a Ph.D. candidate in Computer Science at <strong>North Carolina State University</strong>, 
+#   advised by <a href="https://csc.ncsu.edu/people/yliu322/" target="_blank">Dr. Yuchen Liu</a>. 
+#   I also work closely with <a href="https://jerrypeng21cuhk.github.io/" target="_blank">Dr. Zhiyuan Peng</a>.
+#   I worked at <strong>Lenovo Research</strong> as a research intern, focusing on <strong>LLM safety</strong>. 
+#   Previously, I was a research intern at the Data Lab of <strong>Syracuse University</strong>, where I worked with 
+#   <a href="https://ecs.syracuse.edu/faculty-staff/reza-zafarani" target="_blank">Dr. Reza Zafarani</a> and 
+#   <a href="https://xinyizhou.xyz/Xinyi-Zhou-1f824c54e0f180fcad69d7f2121a6f28" target="_blank">Dr. Xinyi Zhou</a>.
+#   </p>
+
+
+#   <p>
+#   My research focuses on building <strong>AI-native networked systems</strong>
+#   that can sense, communicate, and reason autonomously in complex and dynamic environments:
+#   <ul>
+#     <li>Generative and Foundation Models for Network Sensing and Wireless Perception</li>
+#     <li>Efficient and Semantic Communication for Multimodal Networked Systems</li>
+#     <li>LLM-Enabled Autonomous Network Intelligence and Resilience</li>
+#   </ul>
+#   My work has been published in venues such as IEEE JSAC, IEEE TMC,
+#   IEEE TCCN, IEEE PerCom, IEEE WoWMoM, IEEE ICC, and IFIP Networking.
+#   </p>
+
+
 short_bio: >-
   <p>
   I am a Ph.D. candidate in Computer Science at <strong>North Carolina State University</strong>, 
@@ -42,15 +67,27 @@ short_bio: >-
   <a href="https://xinyizhou.xyz/Xinyi-Zhou-1f824c54e0f180fcad69d7f2121a6f28" target="_blank">Dr. Xinyi Zhou</a>.
   </p>
 
-
   <p>
-  My research focuses on <strong>generative modeling for autonomous network systems</strong>. 
-  I study how learning-based approaches can transform network data across its lifecycle, 
-  including <strong>generation</strong>, <strong>compression</strong>, and <strong>reasoning</strong>, 
-  to enable scalable communication and adaptive network control toward AI-native systems.
-  My work has been published in venues such as <strong>IEEE JSAC</strong>, <strong>IEEE TMC</strong>,
-  <strong>IEEE TCCN</strong>, <strong>IEEE PerCom</strong>, <strong>IEEE WoWMoM</strong>, <strong>IEEE ICC</strong>, and <strong>IFIP Networking</strong>.
+  My research focuses on building <strong>AI-native networked systems</strong>
+  that can sense, communicate, and reason autonomously in complex and dynamic environments:
   </p>
+
+  <ul style="line-height: 1.7;">
+    <li><strong>Generative and foundation models for network sensing and wireless perception</strong></li>
+    <li><strong>Efficient and semantic communication for multimodal networked systems</strong></li>
+    <li><strong>LLM-enabled autonomous network reasoning, control, and resilience</strong></li>
+  </ul>
+
+# <p>
+# My work has been published in venues such as IEEE JSAC, IEEE TMC,
+# IEEE TCCN, IEEE PerCom, IEEE WoWMoM, IEEE ICC, and IFIP Networking.
+# </p>
+
+# My research focuses on <strong>generative modeling for autonomous network systems</strong>. 
+# I study how learning-based approaches can transform network data across its lifecycle, 
+# including <strong>generation</strong>, <strong>compression</strong>, and <strong>reasoning</strong>, 
+# to enable scalable communication and adaptive network control toward AI-native systems.
+
 
 # <p> 
 # My research lies at the intersection of <strong>Generative AI</strong> and <strong>Intelligent Networking Systems</strong>.
