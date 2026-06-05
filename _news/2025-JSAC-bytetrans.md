@@ -1,4 +1,4 @@
 ---
-title: "Our journal paper on Integrated Sensing and Multi-modal Communication is accepted by IEEE Journal on Selected Areas in Communications (**JSAC**) (**IF 17.2**)!"
+title: "Our journal paper on Integrated Sensing and Multi-modal Communication is accepted by IEEE Journal on Selected Areas in Communications (**JSAC**)!"
 date: 2025-09-10
 ---
