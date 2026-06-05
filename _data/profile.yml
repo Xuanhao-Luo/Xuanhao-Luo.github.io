@@ -69,11 +69,11 @@ short_bio: >-
 
   <p>
   My research focuses on building <strong>AI-native networked systems</strong>
-  that can sense, communicate, and reason autonomously in complex and dynamic environments:
+  that can sense, communicate, and reason autonomously in complex and dynamic environments.
   </p>
 
   <ul style="line-height: 1.7;">
-    <li><strong>Generative and foundation models for network sensing and wireless perception</strong></li>
+    <li><strong>Generative and foundation models for ubiquitous sensing and wireless perception</strong></li>
     <li><strong>Efficient and semantic communication for multimodal networked systems</strong></li>
     <li><strong>Reinforcement learning and LLM-enabled autonomous network reasoning, control, and resilience</strong></li>
   </ul>
